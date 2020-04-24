@@ -1,0 +1,7 @@
+{
+  "name": "Appsweet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
