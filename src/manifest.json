@@ -1,0 +1,13 @@
+{
+  "name": "Appsweet.co",
+  "short_name": "Appsweet",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/icon/icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#19425f",
+  "theme_color": "#19425f"
+}
