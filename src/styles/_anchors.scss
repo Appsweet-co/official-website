@@ -1,0 +1,14 @@
+a {
+  border-bottom: 2px solid currentColor;
+  cursor: pointer;
+
+  &:hover {
+    filter: var(--tint);
+  }
+}
+
+aside a {
+  color: var(--black);
+  display: inline-block;
+  font-size: var(--typo-size-5);
+}

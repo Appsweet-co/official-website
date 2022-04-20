@@ -1,0 +1,13 @@
+$scale: (
+  xs: 0.5rem,
+  sm: 1.5rem,
+  md: 2.5rem,
+  lg: 3.5rem,
+  xl: 4.5rem,
+);
+
+:root {
+  @each $key, $val in $scale {
+    --scale-#{$key}: #{$val};
+  }
+}
