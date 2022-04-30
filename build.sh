@@ -10,7 +10,7 @@ readonly PARENT_DIR="$(dirname ${PWD})"
 ########
 
 main () {
-  npx sass --style=compressed --source-map src/styles/index.scss styles.min.css
+  npx -y sass --style=compressed --source-map src/styles/index.scss styles.min.css
 }
 
 main "${@-}"
