@@ -1,5 +1,23 @@
+dl,
 ul {
   color: var(--text-main);
   font-family: var(--font-family-body);
   font-size: var(--typo-size-5);
+}
+
+dl {
+  margin: var(--scale-sm);
+}
+
+dd {
+  font-style: italic;
+  margin: 0;
+}
+
+dt {
+  margin-block-end: var(--scale-xs);
+}
+
+dd + dt {
+  margin-block-start: var(--scale-sm);
 }
