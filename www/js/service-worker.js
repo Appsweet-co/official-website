@@ -9,11 +9,11 @@ self.addEventListener('install', function (event) {
         '/assets/logo.svg',
         '/favicon.ico',
         '/index.html',
-        '/main.js',
+        '/www/js/main.js',
         '/manifest.json',
-        '/service-worker.js',
-        '/styles.min.css',
-        '/work-with-us.js',
+        '/www/js/service-worker.js',
+        '/www/styles/styles.min.css',
+        '/www/js/work-with-us.js',
       ]);
     }),
   );
