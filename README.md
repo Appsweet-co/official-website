@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="assets/logo.svg" alt="Logo" width="150" height="auto" />
+  <img src="assets/logo.svg" alt="Logo" width="350" height="auto" />
 </p>
 
 <h1 align="center">Official Website</h1>
