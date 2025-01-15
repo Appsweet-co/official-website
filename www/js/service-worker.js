@@ -9,7 +9,6 @@ self.addEventListener('install', function (event) {
         '/favicon.ico',
         '/index.html',
         '/manifest.json',
-        '/www/js/embed.js',
         '/www/js/service-worker.js',
         '/www/js/work-with-us.js',
         '/www/styles/styles.min.css',
