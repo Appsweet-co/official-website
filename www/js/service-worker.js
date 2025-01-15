@@ -2,18 +2,17 @@
 
 self.addEventListener('install', function (event) {
   event.waitUntil(
-    caches.open('appsweet-jz3JYZ').then(function (cache) {
+    caches.open('appsweet-d8zpjH').then(function (cache) {
       return cache.addAll([
-        '/assets/github-white.svg',
         '/assets/icon.png',
         '/assets/logo.svg',
         '/favicon.ico',
         '/index.html',
-        '/www/js/main.js',
         '/manifest.json',
+        '/www/js/embed.js',
         '/www/js/service-worker.js',
-        '/www/styles/styles.min.css',
         '/www/js/work-with-us.js',
+        '/www/styles/styles.min.css',
       ]);
     }),
   );

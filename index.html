@@ -124,13 +124,11 @@
 
     <div data-tf-popover="eIjobm" data-tf-button-color="#19425F" data-tf-notification-days="7" data-tf-tooltip="Hey 👋&nbsp;&nbsp;How can I help you?" data-tf-chat style="all:unset;" role="button" aria-label="Chat Now"></div>
 
-    <script src="https://embed.typeform.com/next/embed.js"></script>
-    <script src="./www/js/main.js"></script>
+    <script src="./www/js/embed.js"></script>
 
     <script>
-      if ('serviceWorker' in navigator) {
-         navigator.serviceWorker.register("./www/js/service-worker.js");
-      }
+      if ('serviceWorker' in navigator) navigator.serviceWorker.register("./www/js/service-worker.js");
+      if ('Worker' in globalThis) new Worker("./www/js/work-with-us.js").postMessage(null);
     </script>
 
   </body>
