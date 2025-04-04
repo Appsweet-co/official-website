@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" dir="ltr" data-theme="dark">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,8 @@
   
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.pumpkin.min.css">
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@appsweet-co/spock-css@0.7.0/dist/spock.min.css">
+
   <style>
     /* Google Fonts */
     @font-face{font-family:'Didact Gothic';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/didactgothic/v20/ahcfv8qz1zt6hCC5G4F_P4ASlUWYpmDmYyVwrA.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Didact Gothic';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/didactgothic/v20/ahcfv8qz1zt6hCC5G4F_P4ASlUuYpmDmYyU.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Reem Kufi';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/reemkufi/v21/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtuZnIGiV34OrrM95Dylg.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Reem Kufi';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/reemkufi/v21/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtuZnIGaV34OrrM95Dw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
@@ -40,7 +41,7 @@
       <ul>
         <li>
           <a href="/">
-            <img style="min-inline-size: clamp(6rem, 30dvw, 10rem); aspect-ratio: 1970.5 / 460.1;" src="assets/logo.svg" alt="Appsweet Logo">
+            <img style="--min-inline-size: clamp(6rem, 30dvw, 10rem); --aspect-ratio: 1970.5 / 460.1;" src="assets/logo.svg" alt="Appsweet Logo">
           </a>
         </li>
       </ul>
@@ -49,9 +50,9 @@
           <details class="dropdown">
             <summary >Menu</summary>
             <ul dir="rtl">
-              <li><a href="#tools">⚡️ Free Tools</a></li>
+              <li><a href="https://appsweet.typeform.com/to/eIjobm" target="_blank">⚡️ Free Consult</a></li>
               <li><a href="mailto:hello@appsweet.co">📨 Email</a></li>
-              <li><a href="https://github.com/appsweet-co">🤖 GitHub</a></li>
+              <li><a href="https://github.com/appsweet-co" target="_blank">🤖 GitHub</a></li>
             </ul>
           </details>
         </li>
@@ -74,7 +75,7 @@
         <li>How much revenue is slipping through the cracks due to poor app performance?</li>
       </ul>
       
-      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');" class="accent" style="--accent-c:var(--black); --element-bg:var(--accent); --mb:var(--scale-sm); --w:100%; --w-lg:auto" aria-label="Schedule Your Free Consultation">Schedule Your Free Consultation</button>
+      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');" aria-label="Schedule Your Free Consultation">Schedule Your Free Consultation</button>
     </section>
     
     <section>
@@ -102,7 +103,7 @@
         <li><strong>News Outlet Overhaul:</strong> A major news outlet saw an increase in engagement after we revamped their app for better user interaction.</li>
       </ul>
       
-      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');" class="accent" style="--accent-c:var(--black); --element-bg:var(--accent); --mb:var(--scale-sm); --w:100%; --w-lg:auto" aria-label="Get in Touch Today">Get in Touch Today</button>
+      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');" aria-label="Get in Touch Today">Get in Touch Today</button>
     </section>
     
     <section>
@@ -132,7 +133,7 @@
       
       <p>Stop letting underperformance hold you back. Contact Appsweet.co now to get your app to the next level with high-performance, user-friendly design.</p>
       
-      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');"  class="accent" style="--accent-c:var(--black); --element-bg:var(--accent); --mb:var(--scale-sm); --w:100%; --w-lg:auto" aria-label="Launch Your Project Now">Launch Your Project Now</button>
+      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');"  aria-label="Launch Your Project Now">Launch Your Project Now</button>
     </section>
     
     <section>
@@ -154,7 +155,7 @@
 
       <p>Your business deserves better. A strong product strategy ensures your app delivers on every front, from performance to user satisfaction, so you can confidently drive growth and achieve results.</p>
 
-      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');"  class="accent" style="--accent-c:var(--black); --element-bg:var(--accent); --mb:var(--scale-sm); --w:100%; --w-lg:auto" aria-label="Schedule Your Free Session">Schedule Your Free Session</button>
+      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');"  aria-label="Schedule Your Free Session">Schedule Your Free Session</button>
     </section>
     
     <section>
@@ -182,7 +183,7 @@
         <li><strong>Plan for Growth:</strong> As your app evolves, your strategy will adapt to ensure it scales alongside your business needs.</li>
       </ul>
 
-      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');"  class="accent" style="--accent-c:var(--black); --element-bg:var(--accent); --mb:var(--scale-sm); --w:100%; --w-lg:auto" aria-label="Contact Us Today">Contact Us Today</button>
+      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');"  aria-label="Contact Us Today">Contact Us Today</button>
     </section>
     
     <section>
@@ -253,58 +254,18 @@
       
       <p>Don't let your app fall behind. Take control of your product's future and start building a strategy that delivers real results.</p>
       
-      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');"  class="accent" style="--accent-c:var(--black); --element-bg:var(--accent); --mb:var(--scale-sm); --w:100%; --w-lg:auto" aria-label="Start Building Now">Start Building Now</button>
-    </section>
-
-    <section id="tools">
-      <h1>Free Tools</h1>
-
-      <details name="tool1">
-        <summary>Accordion 1</summary>
-        <p>...</p>
-      </details>
-      
-      <hr />
-      
-      <details name="tool2">
-        <summary>Accordion 2</summary>
-        <ul>
-          <li>...</li>
-          <li>...</li>
-        </ul>
-      </details>
+      <button onclick="globalThis.open('https://appsweet.typeform.com/to/eIjobm', '_blank');"  aria-label="Start Building Now">Start Building Now</button>
     </section>
   </main>
 
-  <footer style="text-align: center;">
+  <footer style="--text-align: center;">
     <hr />
     <small>&copy;2025 Appsweet.co | Made in USA 🇺🇸</small>
   </footer>
-</body>
 
-<!-- <body class="container">
-  
-    
-    <main content style="visibility: hidden;">
-      
-    </main>
-    
-    <footer style="--mt:var(--scale-lg); --mb:var(--scale-lg); --bt:1px solid var(--white); --ta:center">
-      <p style="--size:1rem">&copy;2022&ndash;2025 Appsweet.co | Made in USA 🇺🇸</p>
-    </footer>
-  </div>
-  
   <script>
     if ('serviceWorker' in navigator) navigator.serviceWorker.register("./www/js/service-worker.js");
     if ('Worker' in globalThis) new Worker("./www/js/work-with-us.js").postMessage(null);
-    
-    addEventListener("load", () => {
-      document.querySelector('main').style.visibility = 'visible';
-      document.querySelector('[skeleton]').remove();
-    });
   </script>
-  
-  <noscript><style>main{visibility:visible;}</style></noscript>
-</body> -->
-
+</body>
 </html>
