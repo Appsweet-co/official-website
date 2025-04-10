@@ -33,6 +33,11 @@
 
   <!-- <link rel="stylesheet" href="./www/styles/styles.min.css"> -->
   <link rel="manifest" href="./manifest.json">
+
+  <script async>
+    const prefersDark = globalThis.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.querySelector('html').dataset['theme'] = prefersDark ? 'dark' : 'light';
+  </script>
 </head>
 
 <body class="container">
